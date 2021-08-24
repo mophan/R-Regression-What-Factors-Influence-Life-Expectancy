@@ -11,13 +11,13 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View R File</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template">View Report</a>
+    <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/report-life-expectancy.docx">View Report</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template">View Presentation</a>
+    <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/presentation-life-expectancy.pptx">View Presentation</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Download Dataset</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/issues">Report Bug</a>
   </p>
 </p>
 
@@ -89,27 +89,21 @@ Life expectancy is the response variable, and the rest are the predictors.
 <!-- METHODOLOGY -->
 ## Methodology
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Use the application of linear regression and R to
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Fit a full model with all input variables and the output variable - life expectancy
+2. Obtain the best subset of variables using adjusted R-squared, AIC, AICc, BIC
+3. Fit other regression models with the best subset of variables and transformed variabled which have abnormal original distribution 
+4. Compare between models to find the most accurate result using adjusted R-squared, AIC, AICc, BIC, MAPE  
 
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
+_For more examples, please refer to the [R file](https://example.com), the [Project Report](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/report-life-expectancy.docx), the [Project Presentation](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/presentation-life-expectancy.pptx)_
 
 <!-- CONTACT -->
 ## Contact
 
 Mo Phan - helen.dreamsbigdreams@gmail.com
 
-Project Link: [https://github.com/mophan/Python-Missing-Data-Imputation-Regression-kNN-MPL](https://github.com/mophan/Python-Missing-Data-Imputation-Regression-kNN-MPL)
+Project Link: [https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy)
 
 
 <!-- LICENSE -->
@@ -122,4 +116,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
+![Distribution of Variables!](images/distribution.jpg)
