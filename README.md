@@ -9,13 +9,13 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View R File</a>
+    <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/r-regression-life-expectancy.R">View Code</a>
     ·
     <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/report-life-expectancy.docx">View Report</a>
     ·
     <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/presentation-life-expectancy.pptx">View Presentation</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Download Dataset</a>
+    <a href="https://www.kaggle.com/kumarajarshi/life-expectancy-who/version/1">Download Dataset</a>
     ·
     <a href="https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/issues">Report Bug</a>
   </p>
@@ -96,7 +96,7 @@ Use the application of linear regression and R to
 3. Fit other regression models with the best subset of variables and transformed variabled which have abnormal original distribution 
 4. Compare between models to find the most accurate result using adjusted R-squared, AIC, AICc, BIC, MAPE  
 
-_For more examples, please refer to the [R file](https://example.com), the [Project Report](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/report-life-expectancy.docx), the [Project Presentation](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/presentation-life-expectancy.pptx)_
+_For more examples, please refer to the [R file](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/r-regression-life-expectancy.R), the [Project Report](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/report-life-expectancy.docx), the [Project Presentation](https://github.com/mophan/R-Regression-What-Factors-Influence-Life-Expectancy/blob/master/presentation-life-expectancy.pptx)_
 
 <!-- CONTACT -->
 ## Contact
