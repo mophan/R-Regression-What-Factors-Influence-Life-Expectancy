@@ -1,4 +1,3 @@
-setwd("/Users/helenphan/Desktop")
 data <- read.csv("Life Expectancy Data.csv", header=TRUE)
 head(data)
 
