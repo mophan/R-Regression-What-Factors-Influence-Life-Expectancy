@@ -1,7 +1,7 @@
 data <- read.csv("Life Expectancy Data.csv", header=TRUE)
 head(data)
 
-#### Data Collection ########################################################################
+#### Data Tidy ########################################################################
 ####1/ Random sampling
 set.seed(123)
 sample <- sample.int(n = nrow(data), size = floor(.75*nrow(data)), replace = F) #75% of dataset 
