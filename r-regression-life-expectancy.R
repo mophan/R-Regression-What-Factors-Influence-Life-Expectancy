@@ -241,7 +241,6 @@ par(mfrow=c(2,2))
 plot(m1)
 
 ###3/ Multicollinearity 
-install.packages(car)
 library(car)
 vif(m)
 mn <- lm(y~x1+factor(x2)+x3+x5+x6+x7+x8+x9+x10+x11+x12+x13+x14+x15+x16+x17+x18+x19+x20)
@@ -310,7 +309,6 @@ avPlot(m1,variable=x20,ask=FALSE, main="")
 
 #### MODEL 2 ########################################################################
 ###1/ Best subset
-library(leaps)
 X <- cbind(x1, x2, x3, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15, x16, x17, x18, x19, x20)
 BS <- regsubsets(as.matrix(X),y)
 summary(BS)
@@ -444,7 +442,6 @@ x10n <- categorical.under.five.deaths
 
 
 ###2/ Box-cox transformation
-install.pakages(alr3)
 library(alr3)
 summary(powerTransform(cbind(x1,x3,x5,x7,x9,x11,x12,x13,x14,x15,x16,x17,x18,x20)~1, data=train))
 
